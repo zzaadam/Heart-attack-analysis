@@ -6,11 +6,11 @@ Building a machine learning model to predict the likelihood of heart attacks bas
 
 # Methodology:
 The analysis was performed using Python and various data science libraries, such as Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn. The following steps were taken:
-Data Exploration and Preprocessing: The dataset was loaded into a Pandas DataFrame, and exploratory data analysis (EDA) was performed to understand the structure, data types, and statistical properties of the variables. This involved techniques like descriptive statistics, data visualization (e.g., histograms, scatter plots), and handling missing values.
-Feature Engineering: Based on the EDA insights, relevant features were selected, and new features were engineered by combining or transforming existing variables. This step aimed to create more informative and meaningful features for the predictive model.
-Data Splitting: The dataset was split into training and testing sets to evaluate the model's performance on unseen data.
-Model Selection and Training: Various machine learning algorithms, such as logistic regression, decision trees, random forests, and gradient boosting, were explored. The models were trained on the training data, and their performance was evaluated using appropriate metrics (e.g., accuracy, precision, recall, F1-score).
-Model Evaluation and Tuning: The trained models were evaluated on the testing data, and the best-performing model was selected. Techniques like cross-validation and hyperparameter tuning were employed to optimize the model's performance further.
+- Data Exploration and Preprocessing: The dataset was loaded into a Pandas DataFrame, and exploratory data analysis (EDA) was performed to understand the structure, data types, and statistical properties of the variables. This involved techniques like descriptive statistics, data visualization (e.g., histograms, scatter plots), and handling missing values.
+- Feature Engineering: Based on the EDA insights, relevant features were selected, and new features were engineered by combining or transforming existing variables. This step aimed to create more informative and meaningful features for the predictive model.
+- Data Splitting: The dataset was split into training and testing sets to evaluate the model's performance on unseen data.
+- Model Selection and Training: Various machine learning algorithms, such as logistic regression, decision trees, random forests, and gradient boosting, were explored. The models were trained on the training data, and their performance was evaluated using appropriate metrics (e.g., accuracy, precision, recall, F1-score).
+- Model Evaluation and Tuning: The trained models were evaluated on the testing data, and the best-performing model was selected. Techniques like cross-validation and hyperparameter tuning were employed to optimize the model's performance further.
 Interpretation and Visualization: The final model's predictions and feature importances were analyzed and visualized to gain insights into the most significant risk factors for heart attacks.
 
 # Size of the Dataset:
